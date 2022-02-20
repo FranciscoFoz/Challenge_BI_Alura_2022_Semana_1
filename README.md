@@ -29,4 +29,35 @@ A Alura Films contratou você para fazer uma pesquisa de mercado, com a finalida
 
 ## Projeto
 
+Para este projeto utilizei a ferramenta [Google Data Studio](https://datastudio.google.com/) e o [Google SpreadSheets](https://docs.google.com/spreadsheets/)
+
+### **Bases de dados**
+
+Os dados fornecidos foram dois arquivos .csv, com as informações da tabela de filmes e outra de posters, com a descrição conforme o [pdf](https://github.com/FranciscoFoz/Challenge_BI_Alura_2022_Semana_1/blob/main/Dados_Fornecidos/Informac%C3%B5es%20sobre%20a%20base%20de%20dados.pdf)
+
+Você pode encontrar os dados iniciais [aqui](https://github.com/FranciscoFoz/Challenge_BI_Alura_2022_Semana_1/tree/main/Dados_Fornecidos)
+
+
+###     **Limpeza de dados**
+
+Para a construção do dashboard, realizei o tratamento dos dados para que eles ficassem corretos.
+
+#### Etapas:
+
+1. Tradução da coluna "Overview" e "Genre_PT-BR": 
+
+Inseri uma nova coluna no conjunto de dados chamada "Overview_PT-BR" com a tradução das colunas "Overview" e "Genre". Utilizei a função "=GOOGLETRANSLATE()" do google sheets. 
+
+2. Formatação da coluna "Gross":
+
+Formatei os valores que estavam com formato norte americano de "," no lugar do ".", usando a função SUBSTITUIR() e depois acrescentei mais ",00" e formatei a coluna para moeda.
+
+3. Padronização da coluna "Certificate":
+
+Após algumas pesquisas, encontrei os valores equivalentes das classificações indicativas dos filmes e subistituí para que todos ficassem no padrão do Brasil mais os não Classificados:
+
+U: Livre , UA:	10, A: 18, PG-13:	14, Passed:	Não Classificado, PG:	10, R: 18, G:	Livre, not rated:	Não Classificado, Approved:	Livre, PG-12:	14, U/A:	10, 12A:	14, TV-14:	14, GP:	10, Unrated:	Não Classificado, TV-PG:	10, TV-MA:	18, 
+
+###     **Modelagem de dados**
+
 
