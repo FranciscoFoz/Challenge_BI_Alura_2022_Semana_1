@@ -7,6 +7,12 @@
 <p align="center">
 Photo by: </a> <a href="https://unsplash.com/@myke_simon"> @mike_simon </a>
 
+Elaborado por Francico Foz
+
+<a href="https://img.shields.io/badge/author-gustavolq-blue.svg)](https://www.linkedin.com/in/francisco-tadeu-foz/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>  
+
+---
+
 ## Sobre o challenge
 
 O challenge é uma iniciativa da Alura para seus alunos desenvolverem projetos baseado em desafios reais.
