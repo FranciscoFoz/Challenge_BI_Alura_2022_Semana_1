@@ -44,7 +44,7 @@ Os dados fornecidos foram dois arquivos .csv, com as informações da tabela de 
 Você pode encontrar os dados iniciais [aqui](https://github.com/FranciscoFoz/Challenge_BI_Alura_2022_Semana_1/tree/main/Dados_Fornecidos)
 
 
-###     **Limpeza de dados**
+###     **Limpeza de dados e modelagem de dados**
 
 Para a construção do dashboard, realizei o tratamento dos dados para que eles ficassem corretos.
 
@@ -64,6 +64,9 @@ Após algumas pesquisas, encontrei os valores equivalentes das classificações 
 
 U: Livre , UA:	10, A: 18, PG-13:	14, Passed:	Não Classificado, PG:	10, R: 18, G:	Livre, not rated:	Não Classificado, Approved:	Livre, PG-12:	14, U/A:	10, 12A:	14, TV-14:	14, GP:	10, Unrated:	Não Classificado, TV-PG:	10, TV-MA:	18, 
 
-###     **Modelagem de dados**
+4. Criei uma nova tabela com os gêneros e estrelas
+Separei eles pela função de dividir texto em coluna, ao colar.
+Manipulei as colunas para que ficassem em apenas uma e repeti o índice, afim de se ter apenas duas colunas e fazer o relacionamento das tabelas.
+
 
 
