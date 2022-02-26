@@ -50,7 +50,7 @@ Para a construção do dashboard, realizei o tratamento dos dados para que eles 
 
 #### Etapas:
 
-1. Tradução da coluna "Overview" e "Genre_PT-BR": 
+1. Tradução da coluna "Genre_PT-BR": 
 
 Inseri uma nova coluna no conjunto de dados chamada "Overview_PT-BR" com a tradução das colunas "Overview" e "Genre". Utilizei a função "=GOOGLETRANSLATE()" do google sheets. 
 
@@ -64,9 +64,29 @@ Após algumas pesquisas, encontrei os valores equivalentes das classificações 
 
 U: Livre , UA:	10, A: 18, PG-13:	14, Passed:	Não Classificado, PG:	10, R: 18, G:	Livre, not rated:	Não Classificado, Approved:	Livre, PG-12:	14, U/A:	10, 12A:	14, TV-14:	14, GP:	10, Unrated:	Não Classificado, TV-PG:	10, TV-MA:	18, 
 
-4. Criei uma nova tabela com os gêneros e estrelas
+4. Criei uma nova tabela com as estrelas
 Separei eles pela função de dividir texto em coluna, ao colar.
 Manipulei as colunas para que ficassem em apenas uma e repeti o índice, afim de se ter apenas duas colunas e fazer o relacionamento das tabelas.
 
+###     **Dashboard**
+
+Construi o dashboard no Data Studio, que foi formado por:
+
+* Um painel inicial de menu.
+* Um painel com a visão geral do lucro, com gráficos de filmes, gêneros, notas do IMDB, classificação indiativa e ano. 
+  Desta forma pode-se visualizar os gêneros que tiveram maior quantidade de lucro, qual a relação da nota do IMDB com o lucro gerado, a classificação indicativa que abrange maior quantidade de lucro e a evolução do lucro dos filmes por ano.
+* Um painel com a visão de elenco e produção, com as informações de diretores, atores e atrizes e gênero com suas respectivas posições no filme para com a quantidade de lucro gerado. Para que desta forma, possa entender quais os melhores elencos e produção gerariam maior quantidade de lucro.
+
+Foi escolhido não separar os gêneros de cada filme para que de fato possa se ter uma informação mais precisa a respeito de cada filme. Por exemplo, há uma quantidade muito grande do gênero drama, porém há diversas outras posições como Drama + Ação + Crime ou Drama + Comédia. 
+
+### Resultado:
+
+Você pode acessar ele por [aqui](https://datastudio.google.com/reporting/0bec6238-2d71-408b-b7f1-1af8aab1194e)
+
+![](https://github.com/FranciscoFoz/Challenge_BI_Alura_2022_Semana_1/blob/main/Imagens/Menu.png?raw=true)
 
 
+![](https://github.com/FranciscoFoz/Challenge_BI_Alura_2022_Semana_1/blob/main/Imagens/Visao_geral.png?raw=true)
+
+
+![](https://github.com/FranciscoFoz/Challenge_BI_Alura_2022_Semana_1/blob/main/Imagens/Elenco_producao.png?raw=true)
